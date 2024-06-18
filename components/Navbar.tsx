@@ -1,10 +1,14 @@
 "use client";
 
+import Link from "next/link";
+
 const Navbar = () => {
     return (
         <nav className='container w-full h-16 bg-primary border-b-secondary border-b text-foreground flex justify-between items-center'>
             <div className='text-primary-foreground'>
-                <h3 className='text-xl text-gray-400'>Authentication</h3>
+                <Link href='/' className='text-xl text-gray-400'>
+                    Authentication
+                </Link>
             </div>
         </nav>
     );
