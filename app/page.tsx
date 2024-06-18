@@ -13,7 +13,7 @@ export default function Page() {
             </div>
             <div className='flex flex-col justify-center gap-2 min-[400px]:flex-row'>
                 <Link
-                    className='mt-4 inline-flex h-10 items-center justify-center rounded-md border border-gray-100 bg-gray-600 px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50'
+                    className='mt-4 md:mt-6 inline-flex h-10 items-center justify-center rounded-md border border-gray-100 bg-gray-600 px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50'
                     href='/register'>
                     Sign up
                 </Link>
