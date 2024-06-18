@@ -78,7 +78,7 @@ const LoginForm = () => {
             <Card className='w-full max-w-[650px] bg-secondary-foreground text-primary-foreground border-2 border-gray-600'>
                 <CardHeader>
                     <CardTitle>User Login</CardTitle>
-                    <CardDescription className='text-primary-foreground'>
+                    <CardDescription className='text-gray-400'>
                         Login with username and password to get started
                     </CardDescription>
                 </CardHeader>

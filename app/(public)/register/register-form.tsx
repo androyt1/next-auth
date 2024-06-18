@@ -84,7 +84,7 @@ const RegisterForm = () => {
             <Card className='w-full md:w-[700px] bg-secondary-foreground text-primary-foreground border-gray-600 border-2'>
                 <CardHeader>
                     <CardTitle>User Registration</CardTitle>
-                    <CardDescription className='text-primary-foreground'>
+                    <CardDescription className='text-gray-400'>
                         Get registered to get started
                     </CardDescription>
                 </CardHeader>
