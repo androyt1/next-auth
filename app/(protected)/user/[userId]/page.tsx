@@ -20,10 +20,10 @@ const UserPage = async ({ params }: { params: { userId: string } }) => {
     return (
         <div className='flex-1 flex flex-col justify-center items-center'>
             <div className='flex-1 flex flex-col justify-center items-center'>
-                <Card className='w-full md:w-[450px] bg-primary text-white'>
+                <Card className='w-full md:w-[550px] bg-primary text-gray-400 border-2 border-gray-600'>
                     <CardHeader>
-                        <CardTitle>User</CardTitle>
-                        <CardDescription className='text-white'>
+                        <CardTitle className='text-white'>User Details</CardTitle>
+                        <CardDescription className='text-gray-300'>
                             Showing current logged in user details.
                         </CardDescription>
                     </CardHeader>
