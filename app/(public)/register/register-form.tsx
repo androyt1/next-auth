@@ -81,7 +81,7 @@ const RegisterForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <Card className='w-full md:w-[700px] bg-secondary-foreground text-primary-foreground'>
+            <Card className='w-full md:w-[700px] bg-secondary-foreground text-primary-foreground border-gray-600 border-2'>
                 <CardHeader>
                     <CardTitle>User Registration</CardTitle>
                     <CardDescription className='text-primary-foreground'>
@@ -160,7 +160,10 @@ const RegisterForm = () => {
                 </CardContent>
                 <CardFooter className='flex flex-col justify-center items-start'>
                     <div className='flex justify-between items-center w-full'>
-                        <Button variant={"default"} type='submit' className='border-white border'>
+                        <Button
+                            variant={"default"}
+                            type='submit'
+                            className='border-gray-600 border'>
                             {loading ? "Submitting..." : "Register"}
                         </Button>
                         <Link href='/login' className='text-gray-400 hover:text-gray-200'>

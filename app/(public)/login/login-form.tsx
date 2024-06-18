@@ -75,7 +75,7 @@ const LoginForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
-            <Card className='w-full max-w-[650px] bg-secondary-foreground text-primary-foreground'>
+            <Card className='w-full max-w-[650px] bg-secondary-foreground text-primary-foreground border-2 border-gray-600'>
                 <CardHeader>
                     <CardTitle>User Login</CardTitle>
                     <CardDescription className='text-primary-foreground'>
@@ -111,7 +111,7 @@ const LoginForm = () => {
                         <Button
                             variant={"default"}
                             type='submit'
-                            className='border-white border mr-8'>
+                            className='border-gray-600 border mr-8'>
                             {loading ? "Submitting.." : "Login"}
                         </Button>
                         <Link href='/register' className='text-gray-400 hover:text-gray-200'>
